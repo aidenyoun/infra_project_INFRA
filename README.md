@@ -56,7 +56,7 @@ infra_project_INFRA/
 
 ### 4. 구축 완료 보고
 1. Docker 이미지 생성
-- PyCharm의 터미널에서 Docker 환경을 Minikube에 맞추고 이미지를 빌드하였습니다.
+- PyCharm 터미널에서 Minikube 환경을 설정한 후, Docker를 사용해 FastAPI 애플리케이션 이미지를 빌드하였습니다.
 ![docker](https://github.com/aidenyoun/infra_project_INFRA/blob/main/images/create_docker_image.png?raw=true) 
 
 2. Helm
@@ -73,6 +73,7 @@ get pods을 통해 Pod 상태를 확인했습니다.
 ![k8s](https://github.com/aidenyoun/infra_project_INFRA/blob/main/images/kubectl.png?raw=true) 
 
 5. 포트 포워딩을 통한 접근
+- Pod 내부의 80번 포트를 로컬의 8000번 포트로 포워딩했습니다.
 ![port](https://github.com/aidenyoun/infra_project_INFRA/blob/main/images/portfowarding.png?raw=true) 
 
 ### 5. API 작동 확인
