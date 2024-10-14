@@ -75,7 +75,7 @@ get pods을 통해 Pod 상태를 확인했습니다.
 5. 포트 포워딩을 통한 접근
 ![port](https://github.com/aidenyoun/infra_project_INFRA/blob/main/images/portfowarding.png?raw=true) 
 
-- ### 5. API 작동 확인
+### 5. API 작동 확인
   - Health Check
 ![health](https://github.com/aidenyoun/infra_project_INFRA/blob/main/images/API/API_Health.png?raw=true) 
 
@@ -85,11 +85,10 @@ get pods을 통해 Pod 상태를 확인했습니다.
   - Read
 ![Read](https://github.com/aidenyoun/infra_project_INFRA/blob/main/images/API/API_READ.png?raw=true) 
 
-
   - Update
 ![Update](https://github.com/aidenyoun/infra_project_INFRA/blob/main/images/API/API_UPDATE.png?raw=true) 
 
-
   - Delete
 ![Delete](https://github.com/aidenyoun/infra_project_INFRA/blob/main/images/API/API_DELETE.png?raw=true) 
+
 
