@@ -66,7 +66,7 @@ get pods을 통해 Pod 상태를 확인했습니다.
 
 3. Terraform
 - Kubernetes 클러스터 내에 필요한 리소스들을 Terraform을 통해 관리하고자 했습니다. Minikube를 사용했습니다.
-![Terraform](https://github.com/aidenyoun/infra_project_INFRA/blob/main/images/terraform.png?raw=true) 
+![Terraform](https://github.com/aidenyoun/infra_project_INFRA/blob/main/images/terraform_re.png?raw=true)
 
 4. Kubernetes 리소스 상태 확인
 - kubectl get all 명령어로 정상 작동을 확인했습니다.
