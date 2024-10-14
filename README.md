@@ -1,5 +1,5 @@
-## FastAPI와 SQLite3를 이용한 과제 구현
-###  1. 기술 스택 및 사용 도구
+## FastAPI와 SQLite3를 이용한 과제 구현
+### 1. 기술 스택 및 사용 도구
 
 - **언어 및 프레임워크**: Python, FastAPI
 - **데이터베이스**: SQLite3
