@@ -1,0 +1,17 @@
+# templates/service.yaml
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "api-project.fullname" . }}
+  labels:
+    {{- include "api-project.labels" . | nindent 4 }}
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+    - name: http
+      port: {{ .Values.service.port }}
+      targetPort: http
+      protocol: TCP
+  selector:
+    {{- include "api-project.selectorLabels" . | nindent 4 }}
